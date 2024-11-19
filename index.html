@@ -1,0 +1,72 @@
+---
+layout: default
+title: "Home"
+---
+
+<div class="hero-section">
+    <h1>Welcome to Cadshaper</h1>
+    <p></p>
+</div>
+
+<div class="intro-section">
+    <h2>Design and Drafting Services</h2>
+    <p>
+        CADSHAPER is a Melbourne-based engineering company that is passionate about providing high-quality approval and fabrication drawings. Using the latest CAD technology and our 20+ years of experience, CADSHAPE gets your drawings done to the highest standard and without fuss.
+    </p>
+    <h3>Product Design Services</h3>
+    <p>
+        We love working with designs that are unique, innovative, and challenging.
+    </p>
+    <p>
+        We can help with the conceptualization, development, and detailing of bespoke architectural products including featured windows and doors, furniture, and other structures. This includes creating 3D models, drawings, specifications, and technical illustrations. For examples of our latest projects, please see below.
+    </p>
+</div>
+
+<div class="slideshow">
+    {% for project in site.projects %}
+        <div class="slide">
+            <a href="{{ project.url }}">
+                <h2>{{ project.title }}</h2>
+                <img src="{{ project.thumbnail }}" alt="Thumbnail for {{ project.title }}">
+            </a>
+            <p>{{ project.description }}</p>
+        </div>
+    {% endfor %}
+</div>
+<h1>Frequently Asked Questions</h1>
+
+<div class="faq">
+    <div class="question">HOW DO YOU PRICE YOUR SHOP DRAWINGS?</div>
+    <div class="answer">
+        We quote for each project on an individual basis via consultation with you. We offer a fixed price that we agree with you before commencing the project.
+    </div>
+</div>
+
+<div class="faq">
+    <div class="question">DO YOU CHARGE FOR REVISIONS?</div>
+    <div class="answer">
+        The quoted price includes first revisions. Any subsequent changes required are charged based on an hourly rate.
+    </div>
+</div>
+
+<div class="faq">
+    <div class="question">DO YOU WORK WITH CERTAIN FABRICATORS?</div>
+    <div class="answer">
+        Yes, we work with several manufacturers that we have excellent and long-standing relationships with to get your projects done to the highest quality. Should you want to use a specific fabricator, let us know.
+    </div>
+</div>
+
+<div class="faq">
+    <div class="question">DO YOU DELIVER YOUR SHOP DRAWINGS?</div>
+    <div class="answer">
+        We email shop drawings directly to you. We will send a CAD file of shop drawings if required. There is no extra charge for this.
+    </div>
+</div>
+
+<div class="faq">
+    <div class="question">WHAT IS THE PAYMENT METHOD FOR SHOP DRAWINGS?</div>
+    <div class="answer">
+        After your approval on shop drawings, an invoice will be sent to you. Payments are due in 7 days from the date of invoice.
+    </div>
+</div>
+

@@ -1,0 +1,12 @@
+title: "Cadshaper"
+description: "Innovative Engineering Drafting Provider."
+baseurl: "" # Leave empty for GitHub Pages
+url: "https://cadshape.github.io/" # Replace with your GitHub Pages URL
+paginate: 5
+
+markdown: kramdown
+
+collections:
+  projects:
+    output: true
+
