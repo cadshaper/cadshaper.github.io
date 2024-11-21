@@ -5,7 +5,7 @@ title: "About Us"
 
 # About Cadshaper
 
-CADSHAPE is a Melbourne based engineering company that provides approval& fabrication drawings, estimation and design throughout Australia from light and heavy structures, sheet metal, special purpose machines.
+CADSHAPER is a Melbourne based engineering company that provides approval& fabrication drawings, estimation and design throughout Australia from light and heavy structures, sheet metal, special purpose machines.
 
 
 ## What We Do
