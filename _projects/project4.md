@@ -4,11 +4,11 @@ title: "REVERSE ENGINEERING"
 description: "Design and drawing of manifold block for wind turbine gearbox. Including all geometric tolerances."
 thumbnail: "/assets/images/project4/image1.jpg"
 image: "/assets/images/project4/image1.jpg"
-overview: |
-    - **cad-design**
-    - **fabrication**
-    - **drafting**
-    - **reverse engineering**
+overview:
+    - "**cad-design**"
+    - "**fabrication**"
+    - "**drafting**"
+    - "**reverse engineering**"
 
 details: |
   - **Client**: SABA

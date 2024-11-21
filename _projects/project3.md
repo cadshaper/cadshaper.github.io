@@ -5,12 +5,12 @@ description: "Design of balustrades and handrails. Australian standard 1428.1"
 thumbnail: "/assets/images/project3/image1.jpg"
 image: "/assets/images/project3/image1.jpg"
 
-overview: |
-  - **cad-design**
-  - **fabrication**
-  - **drafting**
-  - **balustrade**
-  - **handrails**
+overview:
+  - "**cad-design**"
+  - "**fabrication**"
+  - "**drafting**"
+  - "**balustrade**"
+  - "**handrails**"
 details: |
   - **Client**: ControlFab
   - **Duration**: August 2022
