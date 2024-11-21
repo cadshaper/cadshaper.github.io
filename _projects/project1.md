@@ -5,7 +5,7 @@ description: |
 This project has some tricks, modelling a 3d frame inside the non-geometric dinosaur head is quite challenging, and then also making the fabrication drawings is a tough process.
 thumbnail: "/assets/images/project1/image1.jpg"
 image: "/assets/images/project1/image1.jpg"
-overview: 
+overview:
   - "**CAD Design**"
   - "**Fabrication**"
   - "**Drafting**"
