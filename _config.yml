@@ -1,7 +1,7 @@
 title: "Cadshaper"
-description: "Innovative Engineering Drafting Provider."
+description: "A design and drafting company for fabrication"
 baseurl: "" # Leave empty for GitHub Pages
-url: "https://cadshape.github.io/" # Replace with your GitHub Pages URL
+url: "https://cadshaper.github.io/" # Replace with your GitHub Pages URL
 paginate: 5
 
 markdown: kramdown
