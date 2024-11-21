@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "STAIR BALUSTRADES AND HANDRAILS"
-description: "Design of balustrades and handrails. Australian standard 1428.1"
+description: "Design of balustrades and handrails. Australian standard 1428.1."
 thumbnail: "/assets/images/project3/image1.jpg"
 image: "/assets/images/project3/image1.jpg"
 

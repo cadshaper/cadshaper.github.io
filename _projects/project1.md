@@ -1,8 +1,7 @@
 ---
 layout: project
 title: "Design of a sculpture frame."
-description: |
-This project has some tricks, modelling a 3d frame inside the non-geometric dinosaur head is quite challenging, and then also making the fabrication drawings is a tough process.
+description: "This project has some tricks, modelling a 3d frame inside the non-geometric dinosaur head is quite challenging, and then also making the fabrication drawings is a tough process."
 thumbnail: "/assets/images/project1/image1.jpg"
 image: "/assets/images/project1/image1.jpg"
 overview:
@@ -27,6 +26,4 @@ photos:
     caption: ""
   - url: "/assets/images/project1/image6.jpg"
     caption: ""
-
 ---
-
