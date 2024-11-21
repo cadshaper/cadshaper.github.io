@@ -2,9 +2,24 @@
 layout: default
 title: "{{ page.title }}"
 ---
-<section class="project-detail">
+
+<section>
     <h1>{{ page.title }}</h1>
-    <p>{{ page.introduction }}</p>
+    <p>{{ page.description }}</p>
+    <h2>Project Overview</h2>
+    <ul>
+        {% for item in page.overview %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+</section>
+<section>
+    <h2>Project Details</h2>
+    <p>{{ page.details | markdownify }}</p>
+</section>
+
+<section>
+    <h2>Photo Gallery</h2>
     <div class="project-gallery">
         {% for photo in page.photos %}
             <figure class="photo-block">
@@ -14,4 +29,6 @@ title: "{{ page.title }}"
         {% endfor %}
     </div>
 </section>
+
+
 <a href="{{ '/' | relative_url }}" class="back-link">Back to Home</a>
