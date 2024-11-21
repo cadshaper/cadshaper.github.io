@@ -24,8 +24,6 @@ photos:
     caption: ""
   - url: "/assets/images/project5/image4.jpg"
     caption: ""
-  - url: "/assets/images/project5/image5.jpg"
-    caption: ""
 
 ---
 
