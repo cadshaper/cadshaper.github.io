@@ -9,7 +9,7 @@ title: "{{ page.title }}"
     <h2>Project Overview</h2>
     <ul>
         {% for item in page.overview %}
-            <li>{{ item }}</li>
+            <li>{{ item | markdownify }}</li>
         {% endfor %}
     </ul>
 </section>
