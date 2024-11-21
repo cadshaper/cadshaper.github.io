@@ -250,3 +250,62 @@ p {
 .intro-section p:last-child {
     margin-bottom: 0; /* Remove margin from last paragraph */
 }
+.projects-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.project-header h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.project-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.project-details h3,
+.project-gallery-section h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.project-details ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #555;
+}
+
+.slideshow {
+    position: relative;
+    margin-top: 20px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.gallery-slide {
+    display: none;
+    text-align: center;
+}
+
+.gallery-slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery-slide .caption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
