@@ -1,18 +1,36 @@
 document.addEventListener('DOMContentLoaded', function () {
-    let slides = document.querySelectorAll('.slide');
-    let index = 0;
+    // Handle the global slideshow (e.g., for index.html)
+    const globalSlideshow = document.querySelector('.slideshow.global');
+    if (globalSlideshow) {
+        let globalSlides = globalSlideshow.querySelectorAll('.slide');
+        let globalIndex = 0;
 
-    // Function to show the current slide
-    function showSlide() {
-        slides.forEach((slide, i) => {
-            slide.style.display = i === index ? 'block' : 'none'; // Show current slide, hide others
-        });
-        index = (index + 1) % slides.length; // Move to the next slide
+        function showGlobalSlide() {
+            globalSlides.forEach((slide, i) => {
+                slide.style.display = i === globalIndex ? 'block' : 'none';
+            });
+            globalIndex = (globalIndex + 1) % globalSlides.length;
+        }
+
+        setInterval(showGlobalSlide, 3000);
+        showGlobalSlide(); // Show the first slide immediately
     }
 
-    // Start the slideshow by calling the showSlide function every 3 seconds
-    setInterval(showSlide, 3000); // Change slide every 3 seconds
+    // Handle project-specific slideshows
+    const projectSlideshows = document.querySelectorAll('.slideshow.project');
 
-    // Display the first slide immediately
-    showSlide();
+    projectSlideshows.forEach((slideshow) => {
+        let slides = slideshow.querySelectorAll('.gallery-slide');
+        let index = 0;
+
+        function showProjectSlide() {
+            slides.forEach((slide, i) => {
+                slide.style.display = i === index ? 'block' : 'none';
+            });
+            index = (index + 1) % slides.length;
+        }
+
+        setInterval(showProjectSlide, 3000);
+        showProjectSlide(); // Show the first slide immediately
+    });
 });

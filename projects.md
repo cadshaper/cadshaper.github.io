@@ -27,7 +27,7 @@ title: "Projects"
 
         <section class="project-gallery-section">
             <h3>Photo Gallery</h3>
-            <div class="slideshow">
+            <div class="slideshow project">
                 {% for photo in project.photos %}
                 <div class="gallery-slide">
                     <img src="{{ photo.url }}" alt="Gallery image for {{ project.title }}">

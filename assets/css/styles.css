@@ -107,7 +107,7 @@ p {
 }
 
 /* Slideshow Container */
-.slideshow {
+.slideshow.global{
     position: relative;
     width: 70%;
     max-width: 70%;
@@ -285,9 +285,8 @@ p {
     color: #555;
 }
 
-.slideshow {
+.slideshow.project {
     position: relative;
-    margin-top: 20px;
     max-width: 100%;
     overflow: hidden;
 }
