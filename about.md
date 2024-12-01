@@ -20,7 +20,7 @@ We offer a wide range of mechanical consultancy services, including but not limi
 
 ## Sam
 
-Sam is an experienced mechanical engineer with ...
+Sam is an experienced mechanical engineer specializing in fabrication, product design, sheet metal, 3D modeling, rendering, reverse engineering, and CNC machining. He has extensive expertise in creating furniture, stairs, doors, and architectural elements, With a strong background in innovative solutions, He excels at bringing ideas to life through precise engineering and attention to detail. Passionate about efficiency and functionality, He thrives on turning challenges into opportunities for impactful designs.
 
 ---
 
